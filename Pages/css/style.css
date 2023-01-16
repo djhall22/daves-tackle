@@ -24,3 +24,15 @@
   background-color: cyan;
   margin: 15px;
 }
+
+.search {
+  display: flex;
+  gap: 10px;
+}
+
+.search label {
+}
+
+.search .text {
+  flex: 1;
+}
