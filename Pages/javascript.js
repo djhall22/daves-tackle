@@ -1,5 +1,5 @@
 let playerOne = "paper";
-let computer = "paper";
+let computer = "scissors";
 
 switch (playerOne) {
   case computer:
