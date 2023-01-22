@@ -1,4 +1,4 @@
-let playerOne = "paper";
+let playerOne = "rock";
 let computer = "scissors";
 
 switch (playerOne) {
