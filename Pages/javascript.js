@@ -1,24 +1,19 @@
-//Conditionals: ternary operator practice
+function add7(number) {
+  let num7 = number + 7;
+  return num7;
+}
 
-let soup;
-let isCustomerBanned = false;
-let soupAccess = isCustomerBanned
-  ? "NO SOUP FOR YOU!"
-  : soup
-  ? `Yes, we have ${soup} today`
-  : "sorry, no soup today";
-console.log(soupAccess);
+console.log(add7(5));
+console.log(add7(10));
 
-let playerOne = "paper";
-let computer = "scissors";
-let result =
-  playerOne === computer
-    ? "Tie Game"
-    : playerOne === "rock" && computer === "scissors"
-    ? "playerOne wins!"
-    : playerOne === "paper" && computer === "scissors"
-    ? "computer wins!"
-    : playerOne === "scissors" && computer === "paper"
-    ? "playerOne Wins!"
-    : "playerOne wins";
-console.log(result);
+function multiply(num1, num2) {
+  let product = num1 * num2;
+  return product;
+}
+
+console.log(multiply(2, 2));
+
+function capitalize(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+console.log(capitalize("bILL"));
